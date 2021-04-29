@@ -10,6 +10,12 @@
       margin: auto;
     }
   }
+  &__img {
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
 
   .MuiButtonBase-root {
     margin: 15px 0;
